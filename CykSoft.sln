@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CykSoft.API", "CykSoft.API\CykSoft.API.csproj", "{F05AEE24-E0AF-4FB7-BF12-D11F8E8B656E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CykSoft.CORE", "CykSoft.CORE\CykSoft.CORE.csproj", "{490F80CA-14A9-4CBB-971F-8F26F528075F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CykSoft.INFRASTRUCTURE", "CykSoft.INFRASTRUCTURE\CykSoft.INFRASTRUCTURE.csproj", "{8D9D3069-31F5-428F-A4B2-5CAD9BB25E96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{953E1418-B421-4779-8220-073682B481B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CykSoft.UnitTest", "CykSoft.UnitTest\CykSoft.UnitTest.csproj", "{EE74F2B0-859C-477E-A0C2-F54C669CB03F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CykSoft.IntegrationTests", "CykSoft.IntegrationTests\CykSoft.IntegrationTests.csproj", "{D588BFFF-9325-497B-AA0E-60F78C2B0284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F05AEE24-E0AF-4FB7-BF12-D11F8E8B656E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05AEE24-E0AF-4FB7-BF12-D11F8E8B656E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05AEE24-E0AF-4FB7-BF12-D11F8E8B656E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05AEE24-E0AF-4FB7-BF12-D11F8E8B656E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490F80CA-14A9-4CBB-971F-8F26F528075F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490F80CA-14A9-4CBB-971F-8F26F528075F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490F80CA-14A9-4CBB-971F-8F26F528075F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490F80CA-14A9-4CBB-971F-8F26F528075F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9D3069-31F5-428F-A4B2-5CAD9BB25E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D3069-31F5-428F-A4B2-5CAD9BB25E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D3069-31F5-428F-A4B2-5CAD9BB25E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D3069-31F5-428F-A4B2-5CAD9BB25E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE74F2B0-859C-477E-A0C2-F54C669CB03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE74F2B0-859C-477E-A0C2-F54C669CB03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE74F2B0-859C-477E-A0C2-F54C669CB03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE74F2B0-859C-477E-A0C2-F54C669CB03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D588BFFF-9325-497B-AA0E-60F78C2B0284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D588BFFF-9325-497B-AA0E-60F78C2B0284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D588BFFF-9325-497B-AA0E-60F78C2B0284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D588BFFF-9325-497B-AA0E-60F78C2B0284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE74F2B0-859C-477E-A0C2-F54C669CB03F} = {953E1418-B421-4779-8220-073682B481B6}
+		{D588BFFF-9325-497B-AA0E-60F78C2B0284} = {953E1418-B421-4779-8220-073682B481B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFC7501D-7CBE-4F2E-B110-1A5626C99725}
+	EndGlobalSection
+EndGlobal
